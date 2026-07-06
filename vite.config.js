@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  base: '/https://grnt7.github.io/DG-Portfolio/', // <--- ADD THIS LINE (Replace with your actual repo name)
 })
